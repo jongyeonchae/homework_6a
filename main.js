@@ -44,10 +44,6 @@ function addToCart(name) {
   updateCartLabel();
 }
 
-// function addToCart() {
-//     var
-// }
-
 function updateCartLabel() {
   var cartSize = cartArray.length;
 
