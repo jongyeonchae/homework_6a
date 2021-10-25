@@ -45,6 +45,7 @@
                             <p class="option-content--delivery-info"> Order now and get it delivered today!</p>
                         </div>    
                     </div>
+
                     <div class="product-option--qty">
                         <div class="option-title">
                             Qty
@@ -52,30 +53,29 @@
                         <div class="option-content--qty">
                             <input type="radio" id="one" name="qtys" value="1" onclick="updatePrice(1)" checked>
                             <label for="one">1</label>
-                        </div>
-                        <div class="option-content--qty">
+                        
                             <input type="radio" id="three" name="qtys" value="3" onclick="updatePrice(3)">
                             <label for="three">3</label>
-                        </div>
-                        <div class="option-content--qty">
+                       
                             <input type="radio" id="six" name="qtys" value="6" onclick="updatePrice(6)">
                             <label for="six">6</label>
-                        </div>
-                        <div class="option-content--qty">
+                       
                             <input type="radio" id="twelve" name="qtys" value="12" onclick="updatePrice(12)">
                             <label for="twelve">12</label>
                         </div>
                     </div>
 
-                    <form class="product-option--glaze" action="">
-                        <label for="option-title--glaze" class="option-title">Glaze</label>
-                        <select name="glazes" id="option-title--glaze" onChange="updatePhoto(this.value)">
-                            <option value="none" selected > None </option>
-                            <option value="sugar-milk" > Sugar-milk </option>
-                            <option value="vanilla-milk" > Vanilla-milk </option>
-                            <option value="double-chocolate" > Double Chocolate </option>
-                        </select> 
-                    </form>
+                    <div class="product-option">
+                        <form class="product-option--glaze" action="">
+                            <label for="option-title--glaze" class="option-title">Glaze</label>
+                            <select name="glazes" id="option-title--glaze" onChange="updatePhoto(this.value)">
+                                <option value="none" selected > None </option>
+                                <option value="sugar-milk" > Sugar-milk </option>
+                                <option value="vanilla-milk" > Vanilla-milk </option>
+                                <option value="double-chocolate" > Double Chocolate </option>
+                            </select> 
+                        </form>
+                    </div>
 
                     <div class="product-option">
                         <div class="option-title">
